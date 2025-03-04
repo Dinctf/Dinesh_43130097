@@ -1,0 +1,36 @@
+<doctype html>
+<html>
+<head>
+<title>My first website</title>
+</head
+<body>
+The href Attribute
+Example :
+<a href="https">Visit Thala</a>
+
+The src Attribute
+Example :
+<img src="dhoni.jpg">
+
+The width and height Attributes
+Example :
+<img src="dhoni.jpg" width="500" height="600">
+
+The alt Attribute
+Example :
+<img src="dhoni.jpg" alt="Girl with a jacket">
+
+The style Attribute
+Example
+<p style="color:greenyellow;">This is a red paragraph.</p>
+
+The lang Attribute
+The following example specifies English as the language:
+Example :
+<html lang="en">
+
+The title Attribute
+Example
+<p title="I'm a tooltip">This is a paragraph.</p>
+</body>
+</head>
