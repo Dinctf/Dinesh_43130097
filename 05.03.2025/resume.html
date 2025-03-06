@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .resume {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #add8e6; /* Light Blue */
+        padding: 20px;
+        box-shadow: 0px 0px 10px gray;
+    }
+    
+    /* Header Section */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom: 2px solid black;
+    }
+    
+    .header-left h1 {
+        margin: 0;
+    }
+    
+    .header-right img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    /* Summary Section */
+    .summary {
+        text-align: center;
+        font-size: 16px;
+        margin: 10px 0;
+        padding: 10px;
+        border-bottom: 2px solid black;
+    }
+    
+    /* Experience & Education */
+    .experience {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+    
+    .box {
+        background-color: white;
+        padding: 15px;
+        width: 48%;
+        border: 1px solid black;
+    }
+    
+    /* Skills & Projects Section */
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .skills .box {
+        width: 30%;
+    }
+    </style>
+<body>
+    <div class="resume">
+        
+        <header>
+            <div class="header-left">
+                <h1>DINESH ARUN</h1>
+                <p>Email:dineshoffical312@gmail.com</p>
+                <p>Phone: +916369548893</p>
+                <p>LinkedIn:https://www.linkedin.com/in/dinesh-arun-7560a92aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+            </div>
+            <div class="header-right">
+                <img src="profile.jpeg" alt="Profile Picture">
+            </div>
+        </header>
+
+        
+        <section class="summary">
+            <p>A working security professional interested in upskilling my career</p>
+        </section>
+
+        
+        <main>
+            <section class="experience">
+                <div class="box">
+                    <h2>Experience</h2>
+                    <p>Deloitte-Penetration Tester</p>
+                    <p>2027-2028 :  Conducted security audits and hve good knowledge in owasp top10,Love Memory corruption vulnerability.</p>
+                </div>
+                <div class="box">
+                    <h2>Education</h2>
+                    <p>Degree - Sathyabama University</p>
+                    <p>Year - 2023-2027(Bachelor OF Electronics And Communication).</p>
+                </div>
+            </section>
+
+            <section class="skills">
+                <div class="box">
+                    <h2>Skills</h2>
+                    <p>Interested in finding bugs such as CSRF,XSS,Buffer Overflow </p>
+                </div>
+                <div class="box">
+                    <h2>Projects</h2>
+                    <p>Project 1-Worked on cipher Projects
+                        Project2-Developed Secure chat application with end to end encrypton.</p>
+                </div>
+                <div class="box">
+                    <h2>Certifications</h2>
+                    <p>OSCP,CEH,CRTP,CRTO(cybersecurity certifications)</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    
+</body>
+</html>
